@@ -1,0 +1,136 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">);
+body{
+	background-color:  #F5F5DC;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.titulo{
+	background-color: #6495ED;
+	height: 70px;
+	width: 40%;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+		border: 0;
+	border-radius: 5px;
+    border: 1px solid #39c;
+    padding-top: 30px;
+}
+
+.subtitulo{
+
+}
+
+
+
+
+.formulario{
+	padding-top: 20px;
+	background-color:#DEB887;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	height: 140px;
+	width: 50%;
+		border: 0;
+	border-radius: 5px;
+    border: 1px solid #39c;
+}
+
+.boton{
+	font-family: 'Permanent Marker', cursive;
+	background-color: #eee;
+	border: 0;
+	border-radius: 5px;
+    border: 1px solid #39c;
+}
+	.boton:hover{font-family: 'Rubik Moonrocks', cursive;
+
+}
+
+.sinbordefondo {
+   background-color: #eee;
+   border: 0;
+ }
+
+
+
+ .tituloregister{
+ 		background-color: #DCDCDC;
+	height: 70px;
+	width: 40%;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+		border: 0;
+	border-radius: 5px;
+    border: 1px solid #DCDCDC;
+    padding-top: 30px;
+ }
+
+ .formularioregister{
+	padding-top: 20px;
+	background-color:#ADD8E6;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	height: 250px;
+	width: 50%;
+		border: 0;
+	border-radius: 5px;
+    border: 1px solid #ADD8E6;
+}
+
+.texto{
+	font-family: 'Permanent Marker', cursive;
+}
+
+h2{
+	font-family: 'Permanent Marker', cursive;
+}
+
+
+.generador{
+	font-family: 'Permanent Marker', cursive;
+	background-color:#ADD8E6;
+	height: 120px;
+	width: 55%;
+	border-radius: 5px;
+}
+
+
+table,td{
+	margin-top: 10px;
+	background-color:#F5F5DC;
+  border: 1px solid #778899;
+  border-collapse: collapse;
+  padding: 0.7em;
+/*  border-radius: 15px;*/
+}
+
+.tarjetas{
+	margin-top: 30px;
+	margin-left: 30px;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	text-align: center;
+	float:center;
+}
+
+
+.button{
+	background-color:  #F5F5DC;
+	outline:none;
+	border-radius:10px;
+}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+    border: 1px solid #778899;
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+
+/*a{
+	text-align: right;
+}*/
+
+

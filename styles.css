@@ -1,0 +1,348 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">);
+*{
+  font-family: monospace !important;
+}
+
+body{
+background-color: antiquewhite;
+	
+}
+
+.titulo {
+  /* background-color: #DEB887; */
+  height: 40%;
+  width: 25%;
+  /* font-family: 'Kdam Thmor Pro', sans-serif; */
+  border: 0;
+  border-radius: 5px;
+  border: 1px solid #39c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid 1px var(--color-borde);
+  /* background-color: var(--color-bg-frm); */
+  border-radius: 8px;
+  /* box-shadow: 0 0 8px 0px; */
+}
+
+.subtitulo{
+
+}
+
+.formulario {
+  padding: 6vh;
+  background-color: #add8e6;
+  /* font-family: 'Kdam Thmor Pro', sans-serif; */
+  /* height: 200px; */
+  /* width: 35vw; */
+  /* border: 0; */
+  /* border-radius: 10px; */
+  /* border: 1px solid #39c; */
+  /* border: solid 7px; */
+  /* background-color: var(--color-bg-frm); */
+  border-radius: 20px;
+  /* box-shadow: 0 0 8px 0px; */
+  align-content: center;
+  justify-content: center;
+  /* border-color: #DC143C; */
+}
+
+.boton {
+  /* font-family: 'Permanent Marker', cursive; */
+  /* background-color: #DC143C; */
+  border: 0;
+  border-radius: 5px;
+  /* border: 1px solid #39c; */
+  text-align: center;
+  justify-content: center;
+  /* color: white; */
+  /* width: 50vw; */
+  height: 6vh;
+  width: 50vw;
+}
+
+.sinbordefondo {
+   background-color: #eee;
+   border: 0;
+ }
+
+
+
+ .tituloregister{
+ 		background-color: #DCDCDC;
+	height: 70px;
+	width: 40%;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+		border: 0;
+	border-radius: 5px;
+    border: 1px solid #DCDCDC;
+    padding-top: 30px;
+ }
+
+.ver {
+  /* font-family: 'Permanent Marker', cursive; */
+  /* background-color: #DC143C; */
+  border: 0;
+  border-radius: 5px;
+  /* border: 1px solid #39c; */
+  text-align: center;
+  justify-content: center;
+  /* color: white; */
+  /* width: 50vw; */
+  /* height: 10vh; */
+  /* width: 35vw; */
+}
+
+ .formularioregister{
+  padding-top: 20px;
+  background-color:#DEB887;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  height: 140px;
+  width: 20%;
+    border: 0;
+  border-radius: 5px;
+    border: 1px solid #39c;
+      border: solid 1px var(--color-borde);
+  /*background-color: var(--color-bg-frm);*/
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0px;
+}
+
+.texto{
+	font-family: 'Permanent Marker', cursive;
+}
+
+h2{
+	font-family: 'Permanent Marker', cursive;
+}
+
+
+.generador{
+	font-family: 'Permanent Marker', cursive;
+	background-color:#ADD8E6;
+	height: 120px;
+	width: 55%;
+	border-radius: 5px;
+}
+
+
+table,td{
+	margin-top: 10px;
+	background-color:#D3D3D3;
+  border: 1px solid #778899;
+  border-collapse: collapse;
+}
+
+.tarjetas{
+	margin-top: 30px;
+	margin-left: 30px;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	text-align: center;
+	float:center;
+}
+
+
+.button{
+	background-color:  #F5F5DC;
+	outline:none;
+	border-radius:10px;
+}
+
+
+.btn {
+  text-decoration: none;
+  font-weight: bold;
+  /* margin-left: 1em; */
+  color: #F5F5DC;
+  background-color: #aa6a15;
+  padding: 10px;
+  border-radius: 8px;
+  align-content: right;
+  display: -webkit-inline-box;
+  margin: 1px;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0c284;
+  /* height: 60px; */
+  border-radius: 8px;
+  /* width: 100%; */
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+
+#hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  border: solid 1px red;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0px black;
+  padding: 2em;
+  background-color: var(--color-bg-frm);
+  color: var(--color-text-primary);
+  font-size: 30px;
+  text-align: center;
+}
+
+
+#hero {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* height: 100%; */
+  /* width: 100%; */
+  /* width: calc(120vh - 30px); */
+  /* border: solid red; */
+  /* height: calc(80vh - 60px); */
+}
+
+
+#frm {
+  /* padding-left: 10px; */
+  /* padding-top: 10px; */
+  /* padding-right: 10px; */
+  /* padding-bottom: 10px; */
+  /* border: solid 1px var(--color-borde); */
+   /*background-color: #f0c284;*/
+  /* border-radius: 8px; */
+  /* box-shadow: 0 0 8px 0px; */
+  /* text-align: center; */
+}
+
+
+#frm1 {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  /* border: solid 1px var(--color-borde); */
+  /* background-color: var(--color-bg-frm); */
+  /* border-radius: 8px; */
+  /* box-shadow: 0 0 8px 0px; */
+  text-align: center;
+  font-size: x-large;
+  background-color: #add8e6;
+}
+
+#links {
+  display: inherit;
+}
+
+.formulario1 {
+  padding-top: 20px;
+  /* background-color: #DEB887; */
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  /* height: 20%; */
+  /* width: 20%; */
+  border: 0;
+  border-radius: 5px;
+  border: 1px solid #39c;
+  border: solid 1px var(--color-borde);
+  /* background-color: var(--color-bg-frm); */
+  border-radius: 8px;
+  /* box-shadow: 0 0 8px 0px; */
+}
+
+
+.textos{
+  padding-top: 20px;
+  background-color:#DEB887;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  height: 20%;
+  width: 20%;
+    border: 0;
+  border-radius: 5px;
+    border: 1px solid #39c;
+      border: solid 1px var(--color-borde);
+  /*background-color: var(--color-bg-frm);*/
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0px;
+}
+
+
+.renglon-datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  word-wrap: anywhere;
+  border: solid;
+  margin: .25em;
+  padding: .25em;
+  border-radius: 10%;
+  width: 100px;
+  /* box-shadow: 0 0 4px 0px; */
+  /* background: url('https://picsum.photos/id/307/100'); */
+  color: #d5851a;
+}
+
+
+#listado-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*box-shadow: 0 0 8px 0px;*/
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  color: black;
+}
+
+
+.opciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  word-wrap: anywhere;
+  /*border: solid;*/
+   margin: .25em;
+  padding: .5em;
+  /*border-radius: 60%;*/
+  width: 7%;
+  height: 7%;
+   /*box-shadow: 0 0 8px 0px;*/
+}
+
+
+
+#frm2 {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+/*  border: solid 1px var(--color-borde);
+  background-color: var(--color-bg-frm);
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0px;*/
+  text-align: center;
+}
+
+
+
+.formulario2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fffacd;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  /* height: 15%; */
+  /* width: 15%; */
+  border: 0;
+  border-radius: 5px;
+  border: 1px solid #39c;
+  border: solid 1px var(--color-borde);
+  /* background-color: var(--color-bg-frm); */
+  border-radius: 8px;
+  /* box-shadow: 0 0 8px 0px; */
+}
